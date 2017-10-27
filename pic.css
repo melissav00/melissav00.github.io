@@ -1,0 +1,289 @@
+*{
+  font-family: 'Roboto',sans-serif;
+}
+
+.type{
+  position: relative;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+/*.work,.dropdown{
+  font-size: 20px;
+}*/
+
+h1,h2,h3,h4,h5{
+  font-family:'Roboto Slab';
+}
+
+p,li{
+  font-family:'Roboto Condensed';
+}
+/*Footer Start*/
+.some{
+  padding-left: 150px;
+  height:215px;
+  background-color:#192231;
+}
+
+.color,.pull-left,.text{
+  color:white;
+}
+/*Above is the end of footer*/
+
+
+table{
+  font-family:sans-serif;
+  border-color: #24AAE2;
+  border-width: 40px;
+}
+
+.container{
+  position:relative;
+  /*overflow:hidden;*/
+}
+
+.row{
+  position:relative;
+  float:left;
+  width:75%
+}
+
+.row2{
+  opacity: 1;
+}
+
+#row2{
+  padding-bottom: 100px;
+}
+
+#sep{
+  text-align:center;
+
+}
+
+#image{
+  width:42%;
+  height:42%
+}
+.glyphicon{
+  width:20%;
+  height:20%;
+}
+
+.container-fluid text-center{
+  height:100%;
+}
+
+#jumbotron1{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  width:100%;
+}
+
+.container{
+	border-radius:5px;
+	background-color:#f2f2f2;
+	padding:20px;
+}
+
+header h1 {
+  font-weight: normal;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.navbar {
+	display:inline-block;
+	float:none;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    text-align:center
+}
+
+.nav navbar-nav navbar-right{
+	text-align:center
+}
+
+.navbar li a, .navbar .navbar-brand {
+	display: flex;
+  align-items: center
+	}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: black !important;
+    background-color: #192231 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #192231 !important;
+}
+
+/* Footer CSS*/
+nav {
+  position: absolute;
+  font-size: 1.25em;
+  font-weight: normal;
+  background-color: #192231;
+
+}
+
+navbar-nav col-sm-3 a:hover, .navbar-nav col-sm-3.active a {
+    color: #f4511e !important;
+    background-color: #192231 !important;
+}
+
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display:inline;
+}
+
+nav ul {
+  display: inline;
+}
+
+
+footer {
+	font-size: 12px;
+	padding:20px 0;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+
+footer .col-sm-7 {
+	display:flex;
+	justify-content: flex-end;
+}
+
+footer ul {
+	list-style: none;
+}
+
+.footer-social-icons{
+  padding-right:20%;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+/*Animation of Navbar */
+.slideanim{visibility:hidden;}
+.slide{
+  animation-name: slide;
+  -webkit-animation-name:slide;
+  animation-duration: 1s;
+  -webkit-animation-duration:1s;
+  visibility:visible;
+}
+
+@keyframes slide {
+  0%{
+    opacity: 0;
+    transform:translateY(70%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide{
+  0%{
+    opacity: 0;
+    -webkit-transform:translateY(70%);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #192231;
+	   position:fixed;
+		width: 100%;
+	transition: top 0.2s ease-in-out;
+}
+
+li {
+		float: left;
+}
+
+li a, .dropbtn {
+	display: none;
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+}
+
+
+li.dropdown {
+		display: inline-block;
+}
+
+.dropdown-content {
+		display: none;
+		background-color: #FFFFFF;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px #98878F;
+		z-index: 1;
+}
+
+.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+}
+
+li a:hover {
+margin-top:-2px;
+padding-bottom:4px;
+}
+
+a:hover {text-decoration: none; color: #bd96e0;}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.test:hover {opacity: 0.7;}
+.right{float:right;}
+.left{float:left;}
+.homepic{padding: 990px;}
+
+tr {padding: 20px;}
+td {padding: 20px;}
